@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="openjema/overlays/foundation-rk3588"
+    name="foundation-rk3588"
+    revision="refs/heads/r102-dev"
+    groups="jemaos,jemaos_overlays,project"
+    remote="openjema">
+    <linkfile src="baseboard-inaugural" dest="src/overlays/baseboard-inaugural" />
+    <linkfile src="chipset-rk3588" dest="src/overlays/chipset-rk3588" />
+  </project>
+
+  <project path="openjema/overlays/overlay-firefly_rk3588spc-openjema"
+    name="overlay-firefly_rk3588spc-openjema"
+    revision="refs/heads/r102-dev"
+    groups="jemaos,jemaos_overlays,project"
+    remote="openjema">
+    <linkfile src="." dest="src/overlays/overlay-firefly_rk3588spc-openjema" />
+  </project>
+
+  <project path="openjema/overlays/overlay-firefly_itx3588j-openjema"
+    name="overlay-firefly_itx3588j-openjema"
+    revision="refs/heads/r102-dev"
+    groups="jemaos,jemaos_overlays,project"
+    remote="openjema">
+    <linkfile src="." dest="src/overlays/overlay-firefly_itx3588j-openjema" />
+  </project>
+
+  <project path="openjema/overlays/overlay-rock5b-openjema"
+    name="overlay-rock5b-openjema"
+    revision="refs/heads/r102-dev"
+    groups="jemaos,jemaos_overlays,project"
+    remote="openjema">
+    <linkfile src="." dest="src/overlays/overlay-rock5b-openjema" />
+  </project>
+
+</manifest>

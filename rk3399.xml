@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="openjema/overlays/foundation-rk3399"
+    name="foundation-rk3399"
+    revision="refs/heads/r102-dev"
+    groups="jemaos,jemaos_overlays,project"
+    remote="openjema">
+    <linkfile src="baseboard-rockpi4" dest="src/overlays/baseboard-rockpi4" />
+    <linkfile src="chipset-rk3399-openjema" dest="src/overlays/chipset-rk3399-openjema" />
+  </project>
+
+  <project path="openjema/overlays/overlay-rockpi4b-openjema"
+    name="overlay-rockpi4b-openjema"
+    revision="refs/heads/r102-dev"
+    groups="jemaos,jemaos_overlays,project"
+    remote="openjema">
+    <linkfile src="." dest="src/overlays/overlay-rockpi4b-openjema" />
+  </project>
+
+  <project path="openjema/overlays/overlay-rock4cp-openjema"
+    name="overlay-rock4cp-openjema"
+    revision="refs/heads/r102-dev"
+    groups="jemaos,jemaos_overlays,project"
+    remote="openjema">
+    <linkfile src="." dest="src/overlays/overlay-rock4cp-openjema" />
+  </project>
+
+</manifest>
