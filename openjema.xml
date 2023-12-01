@@ -8,7 +8,6 @@
   <project path="johnkryptochain/extra-overlays"
     name="extra-overlays"
     revision="refs/heads/r102-dev"
-    groups="jemaos,jemaos_overlays"
     remote="johnkryptochain">
     <linkfile src="host-overlay" dest="src/private-overlays/chromeos-partner-overlay" />
   </project>
@@ -16,7 +15,6 @@
   <project path="openfyde/dotgclient"
 	   name="dotgclient"
 	   revision="refs/heads/main"
-	   groups="fydeos,chromium"
 	   remote="openfyde">
     <linkfile src="dotgclient" dest="openjema/chromium/.gclient" />
   </project>
@@ -24,7 +22,6 @@
   <project path="johnkryptochain/jema-eclass"
     name="jema-eclass"
     revision="refs/heads/r102-dev"
-    groups="jemaos,jemaos_overlays,board"
     remote="johnkryptochain">
     <linkfile src="." dest="src/overlays/jema-eclass" />
   </project>
@@ -32,7 +29,6 @@
   <project path="johnkryptochain/overlay-amd64-openjema"
     name="overlay-amd64-openjema"
     revision="refs/heads/r102-dev"
-    groups="jemaos,jemaos_overlays,board"
     remote="johnkryptochain">
     <linkfile src="." dest="src/overlays/overlay-amd64-openjema" />
   </project>
@@ -40,7 +36,6 @@
   <project path="johnkryptochain/overlay-amd64-openjema_apu"
     name="overlay-amd64-openjema_apu"
     revision="refs/heads/r102-dev"
-    groups="jemaos,jemaos_overlays,board"
     remote="johnkryptochain">
     <linkfile src="." dest="src/overlays/overlay-amd64-openjema_apu" />
   </project>
@@ -48,7 +43,6 @@
   <project path="johnkryptochain/overlay-amd64-openjema_vmware"
     name="overlay-amd64-openjema_vmware"
     revision="refs/heads/r102-dev"
-    groups="jemaos,jemaos_overlays,board"
     remote="johnkryptochain">
     <linkfile src="." dest="src/overlays/overlay-amd64-openjema_vmware" />
   </project>
@@ -56,7 +50,6 @@
   <project path="johnkryptochain/overlays/arch-amd64"
     name="arch-amd64"
     revision="refs/heads/r102-dev"
-    groups="jemaos,jemaos_overlays,project"
     remote="johnkryptochain">
     <linkfile src="." dest="src/overlays/arch-amd64" />
   </project>
@@ -64,7 +57,6 @@
   <project path="johnkryptochain/project-jemamina"
     name="project-jemamina"
     revision="refs/heads/r102-dev"
-    groups="jemaos,jemaos_overlays,project"
     remote="johnkryptochain">
     <linkfile src="." dest="src/overlays/project-jemamina" />
   </project>
@@ -72,7 +64,6 @@
   <project path="johnkryptochain/project-openjema"
     name="project-openjema"
     revision="refs/heads/r102-dev"
-    groups="jemaos,jemaos_overlays,project"
     remote="johnkryptochain">
     <linkfile src="." dest="src/overlays/project-openjema" />
   </project>
@@ -80,7 +71,6 @@
   <project path="johnkryptochain/project-openjema-drivers"
     name="project-openjema-drivers"
     revision="refs/heads/r102-dev"
-    groups="jemaos,jemaos_overlays,project"
     remote="johnkryptochain">
     <linkfile src="." dest="src/overlays/project-openjema-drivers" />
   </project>
@@ -88,7 +78,6 @@
   <project path="johnkryptochain/project-gentoo-pkgs"
     name="project-gentoo-pkgs"
     revision="refs/heads/r102-dev"
-    groups="jemaos,jemaos_overlays,project"
     remote="johnkryptochain">
     <linkfile src="." dest="src/overlays/project-gentoo-pkgs" />
   </project>
@@ -96,7 +85,6 @@
   <project path="johnkryptochain/project-openjema-patches"
     name="project-openjema-patches"
     revision="refs/heads/r102-dev"
-    groups="jemaos,jemaos_overlays,project"
     remote="johnkryptochain">
     <linkfile src="." dest="src/overlays/project-openjema-patches" />
   </project>
@@ -104,7 +92,6 @@
   <project path="johnkryptochain/project-ime"
     name="project-ime"
     revision="refs/heads/r102-dev"
-    groups="jemaos,jemaos_overlays,project"
     remote="johnkryptochain">
     <linkfile src="." dest="src/overlays/project-ime" />
   </project>
@@ -112,7 +99,6 @@
   <project path="johnkryptochain/overlays/overlay-rpi4-openjema"
     name="overlay-rpi4-openjema"
     revision="refs/heads/r102-dev"
-    groups="jemaos,jemaos_overlays,board"
     remote="johnkryptochain">
     <linkfile src="." dest="src/overlays/overlay-rpi4-openjema" />
   </project>
@@ -120,7 +106,6 @@
   <project path="johnkryptochain/project-openjema-fingerprint"
     name="project-openjema-fingerprint"
     revision="refs/heads/r102-dev"
-    groups="jemaos,jemaos_overlays,project"
     remote="johnkryptochain">
     <linkfile src="." dest="src/overlays/project-openjema-fingerprint" />
   </project>
