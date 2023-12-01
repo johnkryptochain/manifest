@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="openjema"
-	  fetch="https://github.com/johnkryptochain" />
+  <remote name="openfyde"
+	  fetch="https://github.com/openFyde" />
 
-  <project path="openjema/chromium/src"
+  <project path="openfyde/chromium/src"
 	   name="chromium"
-	   revision="refs/heads/r102-dev"
-	   groups="jemaos,chromium"
-	   remote="openjema">
+	   revision="refs/heads/openfyde-r114-dev"
+	   groups="fydeos,chromium"
+	   remote="openfyde">
   </project>
+
+
+
+  <project path="openfyde/dotgclient"
+	   name="dotgclient"
+	   revision="refs/heads/main"
+	   groups="fydeos,chromium"
+	   remote="openfyde">
+    <linkfile src="dotgclient" dest="openfyde/chromium/.gclient" />
+  </project>
+
 </manifest>
