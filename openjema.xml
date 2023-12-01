@@ -5,6 +5,9 @@
   <remote name="johnkryptochain"
 	  fetch="https://github.com/johnkryptochain" />
 
+	<remote name="openfyde"
+	  fetch="https://github.com/openFyde" />
+
   <project path="johnkryptochain/extra-overlays"
     name="extra-overlays"
     revision="refs/heads/r102-dev"
@@ -12,6 +15,16 @@
     <linkfile src="host-overlay" dest="src/private-overlays/chromeos-partner-overlay" />
   </project>
 
+  <project path="openfyde/dotgclient"
+	   name="dotgclient"
+	   revision="refs/heads/main"
+	   groups="fydeos,chromium"
+	   remote="openfyde">
+    <linkfile src="dotgclient" dest="openjema/chromium/.gclient" />
+  </project>
+
+
+	
   <project path="openfyde/dotgclient"
 	   name="dotgclient"
 	   revision="refs/heads/main"
